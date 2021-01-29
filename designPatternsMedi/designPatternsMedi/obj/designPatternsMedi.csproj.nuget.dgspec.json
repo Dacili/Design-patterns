@@ -1,0 +1,324 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\designPatternsMedi\\designPatternsMedi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\designPatternsMedi\\designPatternsMedi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\designPatternsMedi\\designPatternsMedi.csproj",
+        "projectName": "designPatternsMedi",
+        "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\designPatternsMedi\\designPatternsMedi.csproj",
+        "packagesPath": "C:\\Users\\Daca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\designPatternsMedi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Facade\\Facade.csproj": {
+                "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Facade\\Facade.csproj"
+              },
+              "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Factory\\Factory.csproj": {
+                "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Factory\\Factory.csproj"
+              },
+              "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Iterator\\Iterator.csproj": {
+                "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Iterator\\Iterator.csproj"
+              },
+              "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Singleton\\Singleton.csproj": {
+                "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Singleton\\Singleton.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Facade\\Facade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Facade\\Facade.csproj",
+        "projectName": "Facade",
+        "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Facade\\Facade.csproj",
+        "packagesPath": "C:\\Users\\Daca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Facade\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Factory\\Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Factory\\Factory.csproj",
+        "projectName": "Factory",
+        "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Factory\\Factory.csproj",
+        "packagesPath": "C:\\Users\\Daca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Iterator\\Iterator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Iterator\\Iterator.csproj",
+        "projectName": "Iterator",
+        "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Iterator\\Iterator.csproj",
+        "packagesPath": "C:\\Users\\Daca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Iterator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Singleton\\Singleton.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Singleton\\Singleton.csproj",
+        "projectName": "Singleton",
+        "projectPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Singleton\\Singleton.csproj",
+        "packagesPath": "C:\\Users\\Daca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daca\\Source\\Repos\\Design-patterns\\designPatternsMedi\\Singleton\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
